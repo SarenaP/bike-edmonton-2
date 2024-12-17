@@ -55,7 +55,7 @@ p {
     line-height: normal;
 }
 
-#p-middle {
+.p-middle {
     text-align: center;
 }
 
@@ -88,38 +88,37 @@ header {
     padding: 15px 20px;
 }
 
-header list {
-    display: flex;
-    gap: 20px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-   
-header nav a {
-    color: #fff;
-    font-weight: bold;
+header nav ul {
+      display: flex;
+      gap: 20px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
 }
 
+#logo {
+    width: 75px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
 
 /* BUTTONS */
 
 .btn-header {
-    color: #ffffff;
-    font-family: "Reddit Sans";
-    font-size: 20px;
-    font-weight: 800;
     background: #e9521c;
-    padding: 24px;
+    padding: 3px 16px;
     border-radius: 60px;
+    color: #fff;
+    font-weight: bold;
 }
 
 .btn-header:hover {
     outline: 2px solid white;  
 }
 
-.btn-donateoptions{
+.btn-donateoptions {
     background: #e9521c;
+    padding: 3px 16px;
     border-radius: 60%;
     color: #fff;
     font-weight: bold;
@@ -127,6 +126,22 @@ header nav a {
 
 
 /* HERO */
+
+#ecologo {
+    width: 150px;
+}
+
+#coelogo {
+    width: 150px;
+    background-color: #ffffff;
+}
+
+#goclogo {
+    width: 150px;
+    background-color: #ffffff;
+}
+
+
 /* VIDEO */
 /* BLOG */
 
