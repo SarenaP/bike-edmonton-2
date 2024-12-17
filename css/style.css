@@ -1,0 +1,185 @@
+
+/* GLOBAL STYLES */
+
+/* Layout*/
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Text Styles */
+
+h1 {
+    color: #FFFFFF;
+    font-family: "Reddit Sans";
+    font-size: 36px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+h2 {
+    color: #FFFFFF;
+    font-family: "Reddit Sans";
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 30px; /* 100% */ 
+}
+
+h3 {
+    color: #FFFFFF;
+    font-family: Caveat;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+p { 
+    color: #FFFFFF;
+    font-family: "Reddit Sans";
+    font-size: 28px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.p-thin {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Reddit Sans";
+    font-size: 28px;
+    font-weight: 200;
+    line-height: normal;
+}
+
+#p-middle {
+    text-align: center;
+}
+
+.p-bold {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Reddit Sans";
+    font-size: 28px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.p-navitems {
+    color: #FFFFFF;
+    font-family: "Reddit Sans";
+    font-size: 20px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+/* HEADER */
+ 
+header {
+    background: #04387C;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+header list {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+   
+header nav a {
+    color: #fff;
+    font-weight: bold;
+}
+
+
+/* BUTTONS */
+
+.btn-header {
+    color: #ffffff;
+    font-family: "Reddit Sans";
+    font-size: 20px;
+    font-weight: 800;
+    background: #e9521c;
+    padding: 24px;
+    border-radius: 60px;
+}
+
+.btn-header:hover {
+    outline: 2px solid white;  
+}
+
+.btn-donateoptions{
+    background: #e9521c;
+    border-radius: 60%;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+/* HERO */
+/* VIDEO */
+/* BLOG */
+
+.blogbackground-color {
+    background-color: #e9521c;
+}
+
+/* FOOTER */
+
+.footer-mediaicons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 10px 0;
+}
+
+.p-footerheader {
+    color: #FFFFFF;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.p-footerlocation {
+    color: #FFFFFF;
+    font-family: "Inter";
+    font-size: 22px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.p-footerdays {
+    color: #FFFFFF;
+    font-family: "Inter";
+    font-size: 19px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.p-footerhours {
+    color: #FFFFFF;
+    font-family: "Inter";
+    font-size: 19px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.p-acknowledgement {
+    color: #FFFFFF;
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 200;
+    line-height: normal;
+
+
